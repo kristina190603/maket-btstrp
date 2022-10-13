@@ -1,0 +1,52 @@
+ul {
+    list-style-type: none;
+    width: 500px;
+  }
+  
+  .btn-danger {
+    height: 48px;
+    border-radius: 0;
+  }
+  
+  .main-image {
+    background: url("../classroom--bootstrap/images/first.jpg");
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  li {
+    position: relative;
+  }
+  
+  .active::after {
+    content: "";
+    height: 2px;
+    width: 20px;
+    background-color: red;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+  }
+  
+  .about-us h1 {
+      font-size: 50px;
+  }
+  
+  .about-us h4 {
+      font-weight: bold;
+  }
+  
+  .services {
+      background-color: #F6F8F8;
+  }
+  
+  i::before {
+    font-size: 40px;
+  }
+  .staff__avatar {
+      background: url('../classroom--bootstrap/images/Linux-Logo-2008-present.jpg');
+      background-size: cover;
+      width: 255px;
+      height: 150px;
+  }
