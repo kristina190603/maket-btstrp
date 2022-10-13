@@ -9,7 +9,7 @@ ul {
   }
   
   .main-image {
-    background: url("../classroom--bootstrap/images/first.jpg");
+    background: url("./images/first.jpg");
     height: 650px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,7 +45,7 @@ ul {
     font-size: 40px;
   }
   .staff__avatar {
-      background: url('../classroom--bootstrap/images/Linux-Logo-2008-present.jpg');
+      background: url('./images/Linux-Logo-2008-present.jpg');
       background-size: cover;
       width: 255px;
       height: 150px;
